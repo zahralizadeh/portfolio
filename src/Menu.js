@@ -16,16 +16,8 @@ const Menu = [
     path: "#skills",
   },
   {
-    name: "Experience",
-    path: "#experience",
-  },
-  {
     name: "Portfolio",
     path: "#portfolio",
-  },
-  {
-    name: "Education",
-    path: "#education",
   },
   {
     name: "Contact Me",

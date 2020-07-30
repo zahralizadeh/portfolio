@@ -16,7 +16,6 @@ class ToggleMenu extends Component {
     if (this.state.visible) document.body.classList.remove("mobile-nav-active");
     else document.body.classList.add("mobile-nav-active");
     this.setState({ visible: !this.state.visible });
-    console.log(this.state.visible);
   };
 
   routeActive(paths) {
