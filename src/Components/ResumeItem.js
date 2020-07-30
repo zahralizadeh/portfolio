@@ -4,7 +4,7 @@ class ResumeItem extends Component {
   render() {
     return (
       <React.Fragment>
-        <h3 className="resume-title">{this.props.title}</h3>{" "}
+        <h3 className="resume-title">{this.props.title}</h3>
         {this.props.items.map((item, i) => {
           return (
             <div className="resume-item" key={i}>

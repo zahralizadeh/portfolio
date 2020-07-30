@@ -16,21 +16,16 @@ class Header extends Component {
   toggleHeader = () => {
     // Toggle .header-scrolled class to #header when page is scrolled
     var scrolled = document.scrollingElement.scrollTop;
-
-    console.log(scrolled);
-
     if (scrolled > 100)
       this.setState({
         toggle_header:
           "fixed-top  d-flex justify-content-center align-items-center header-scrolled",
       });
-    // document.body.header.classList.add("header-scrolled");
     else
       this.setState({
         toggle_header:
           "fixed-top  d-flex justify-content-center align-items-center",
       });
-    // document.header.classList.remove("header-scrolled");
   };
 
   componentDidMount() {
@@ -63,7 +58,7 @@ class Header extends Component {
                   isActive={this.routeActive(item.path)}
                   item={item}
                   key={i}
-                  onClick={() => {}}
+                  // onClick={() => {}}
                 />
               );
             })}
