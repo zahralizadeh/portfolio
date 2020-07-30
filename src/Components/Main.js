@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import Skills from "./Skills";
-import Experience from "./Experience";
-import Education from "./Education";
+import About from "./About";
+import Resume from "./Resume";
 
 class Main extends Component {
   render() {
     return (
       <React.Fragment>
+        <About />
+        <Resume />
         <Skills />
-        <Experience />
-        <Education />
+        {/* Potfolio */}
+        {/* Contact me */}
       </React.Fragment>
     );
   }
