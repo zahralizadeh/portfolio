@@ -17,7 +17,7 @@ class About extends Component {
                 <br />I have serious passion to help businesses do better online
                 and creating intuitive, dynamic user experiences.
               </p>
-              <a href="#contact">Let's make something special.</a>
+              <a href="#footer">Let's make something special.</a>
             </div>
             <Row>
               <Col

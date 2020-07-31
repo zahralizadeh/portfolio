@@ -15,13 +15,13 @@ const Menu = [
     name: "Skills",
     path: "#skills",
   },
-  {
-    name: "Portfolio",
-    path: "#portfolio",
-  },
+  // {
+  //   name: "Portfolio",
+  //   path: "#portfolio",
+  // },
   {
     name: "Contact Me",
-    path: "#contact",
+    path: "#footer",
   },
 ];
 export default Menu;

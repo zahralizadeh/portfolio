@@ -11,7 +11,6 @@ class Main extends Component {
         <Resume />
         <Skills />
         {/* Potfolio */}
-        {/* Contact me */}
       </React.Fragment>
     );
   }
