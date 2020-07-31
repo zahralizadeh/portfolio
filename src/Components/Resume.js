@@ -16,15 +16,14 @@ class Resume extends Component {
           <Row>
             <Col lg="6">
               <ResumeItem title="summary" items={ResumeDetails.summary} />
+              <ResumeItem title="Education" items={ResumeDetails.Education} />
             </Col>
             <Col lg="6">
-              <ResumeItem title="Education" items={ResumeDetails.Education} />
+              <ResumeItem title="Experience" items={ResumeDetails.Experience} />
             </Col>
           </Row>
           <Row>
-            <Col>
-              <ResumeItem title="Experience" items={ResumeDetails.Experience} />
-            </Col>
+            <Col></Col>
           </Row>
         </div>
       </section>
