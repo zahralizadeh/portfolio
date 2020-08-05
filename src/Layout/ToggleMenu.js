@@ -20,8 +20,6 @@ class ToggleMenu extends Component {
 
   routeActive(paths) {
     paths = Array.isArray(paths) ? paths : [paths];
-    console.log(paths);
-    console.log(this.props.location.pathname);
     return paths.some((p) => this.props.location.hash.indexOf(p) > -1);
   }
 

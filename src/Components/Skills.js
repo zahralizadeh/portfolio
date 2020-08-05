@@ -19,7 +19,6 @@ class Skills extends Component {
                   <Col xs="4" lg="2" className="mb-5" key={i}>
                     <img
                       alt={item.name}
-                      // src="../src/style/img/skills/python.png"
                       src={item.logo}
                       className="responsive-img"
                     />

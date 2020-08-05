@@ -40,7 +40,6 @@ class Header extends Component {
     var style =
       "fixed-top  d-flex justify-content-center align-items-center" +
       this.state.toggle_header;
-    console.log(style);
     return style;
   };
   render() {
